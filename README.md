@@ -1,0 +1,2 @@
+# arrays-novo
+estudando arrays
