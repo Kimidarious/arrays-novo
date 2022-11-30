@@ -5,4 +5,6 @@ const reprovados = alunos.filter((_, indice) => {
   return medias[indice] < 7;
 });
 
+// const reprovados = alunos.filter(() => true);
+
 console.log(reprovados);
