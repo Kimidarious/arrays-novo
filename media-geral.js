@@ -7,10 +7,9 @@ function calculaMedia(NotasDaSala) {
     return acumulador + nota;
   }, 0);
 
-  const media = somaDasNotas / NotasDaSala.length
+  const media = somaDasNotas / NotasDaSala.length;
 
-  return media
-
+  return media;
 }
 
 console.log(`A média da sala de JavaScript é ${calculaMedia(salaJS)}`);
